@@ -1,0 +1,23 @@
+.header {
+  .navbar {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: $font-dm-sans;
+    &__collection {
+      display: flex;
+      gap: 50px;
+    }
+    &__btn {
+      @include btn($bg-sy);
+      font-family: $font-dm-sans;
+      font-weight: 700;
+    }
+  }
+}
+
+@media (max-width: 990xp) {
+  @mixin btn($bg: $bg-sy) {
+  }
+}

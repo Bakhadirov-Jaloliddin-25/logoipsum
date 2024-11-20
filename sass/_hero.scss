@@ -1,0 +1,48 @@
+.hero {
+  padding: 20px;
+
+  .hero-wrapper {
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    padding: 100px 0;
+
+    .hero-info {
+      width: 100%;
+      .big {
+        font-size: 80px;
+        margin-bottom: 30px;
+        color: #19191b;
+        font-family: $font-dm-sans;
+      }
+      .small {
+        font-size: 20px;
+        margin-bottom: 30px;
+        line-height: 30px;
+        font-family: $font-mulish;
+      }
+      .collapse {
+        display: flex;
+        gap: 30px;
+        .btn {
+          width: 211px;
+          height: 60px;
+          background-color: $bg-py;
+          color: #fff;
+          padding: 10px 30px;
+          border-radius: 10px;
+          font-size: 17px;
+          font-weight: 700;
+          font-family: $font-dm-sans;
+          cursor: pointer;
+        }
+        a {
+          cursor: pointer;
+        }
+      }
+    }
+    .hero-image {
+      width: 100%;
+    }
+  }
+}
