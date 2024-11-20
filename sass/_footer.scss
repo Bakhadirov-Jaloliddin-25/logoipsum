@@ -1,0 +1,54 @@
+.plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px 0;
+
+  .plan-left,
+  .plan-right {
+    width: 45%;
+  }
+  .plan-left h1 {
+    width: 525px;
+    color: #19191b;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: $font-dm-sans;
+  }
+  .plan-right {
+    width: 346px;
+    background-color: #f7f7fb;
+    border-radius: 10px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .plan-btn1 {
+    background-color: #5454d4;
+    width: 160px;
+    padding: 18px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    transition: 1s;
+    cursor: pointer;
+  }
+  .plan-btn1:hover {
+    background-color: $bg-sy;
+  }
+  .plan-btn2 {
+    width: 175px;
+    font-size: 16px;
+    color: #19191b;
+    border: none;
+    font-weight: bold;
+    background: transparent;
+    transition: 1s;
+    cursor: pointer;
+  }
+  .plan-btn2:hover {
+    transform: scale(1.3);
+  }
+}
