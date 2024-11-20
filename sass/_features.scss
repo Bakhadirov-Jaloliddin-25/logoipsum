@@ -40,6 +40,14 @@
         }
       }
     }
+    .second {
+      padding: 0;
+    }
+    .features-image-second {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 
   .small-info p {
